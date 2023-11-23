@@ -1,0 +1,69 @@
+/* Screen1 */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #219796; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #219796; 
+}
+
+.tab {
+    --sds-c-tabs-item-color-border-active: #219796;
+}
+
+.brand-logo {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.brand-item {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+thead th {
+    background: #fff;
+}
+
+tbody td {
+    text-align: center;
+}
+
+.product-image {
+        width: 7rem;
+    margin-left: -2rem;
+    padding: 0.6rem 0;
+}
+
+.brand-success {
+    font-size: 0.7rem;
+    width: 7.5rem;
+    padding: 0;
+    line-height: 1.5rem;
+    margin-top: 6px;
+    font-weight: 400;
+    color: #219796;
+    border-color: #219796;
+}
+
+.brand-logo.active {
+  border: 2px solid #219796;
+}
+
+/* Screen2 */
+
+
+
